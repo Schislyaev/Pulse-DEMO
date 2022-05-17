@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pulse</title>
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
@@ -16,7 +18,7 @@
                 <a href="#" class="header__logo">
                     <img src="icons/logo.png" alt="logo">
                 </a>
-                <div class="heaser__official">
+                <div class="header__official">
                     официальный представитель
                     <span>Garmin, Polar, Suunto</span>
                 </div>
@@ -25,6 +27,83 @@
                     <button class="button">заказать звонок</button>
                 </div>
             </header>
+            <div class="promo__wrapper">
+                <h1 class="promo__header">Подбор пульсометра</h1>
+                <h2 class="promo__subheader">С учетом вашего уровня подготовки</h2>
+                <div class="promo__icons">
+                    <div class="promo__icon">
+                        <img src="icons/main_screen/019_timer_time_stopwatch_2-64.png" alt="stopwatch">
+                        Время подбора:
+                        10 минут
+                    </div>
+                    <div class="promo__icon">
+                        <img src="icons/main_screen/app-08-hand-cart-64.png" alt="carrige">
+                        Бесплатная 
+                        доставка
+                    </div>
+                    <div class="promo__icon">
+                        <img src="icons/main_screen/messages-64.png" alt="mess">
+                        Ответим
+                        на все вопросы
+                    </div>
+                </div>
+
+                <button class="button button_main">заказать консультацию</button>
+                <div class="promo__link">
+                    или
+                    <a href="#">перейти в каталог</a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="adv">
+        <div class="container">
+            <div class="adv__title">наши преимущества</div>
+            <div class="adv__items">
+                <div class="row justify-content-center">
+                    <div class="col-md-4 col-xs-8">
+                        <div class="adv__items_block">
+                            <img src="icons/adv_screen/cup.png" alt="cap" class="adv__icon">
+                            <div class="adv__items_block__text">Делимся опытом</div>
+                            <div class="adv__items_block__descr">Наши сотрудники всегда готовы поделиться своим опытом, так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-8">
+                        <div class="adv__items_block">
+                            <img src="icons/adv_screen/heart.png" alt="heart" class="adv__icon">
+                            <div class="adv__items_block__text">Заботимся о здоровье</div>
+                            <div class="adv__items_block__descr">Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-8">
+                        <div class="adv__items_block">
+                            <img src="icons/adv_screen/shoe.png" alt="shoe" class="adv__icon">
+                            <div class="adv__items_block__text">Учим бегать</div>
+                            <div class="adv__items_block__descr">Помогаем с обучением правильной технике бега! Дружим с крупнейшей школой бега в России - <a href="#">I LOVE RUNNING.</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="consultation">
+        <div class="container">
+            <h2 class="title title_left">
+                Получите бесплатную консультацию<br>
+                по подбору пульсометра
+            </h2>
+            <div class="consultation__descr">
+                Просто заполните форму заявки<br>
+                и мы перезвоним вам в течении 10 минут
+            </div>
+            <form class="feed-form" action="#">
+                <input name="name" required placeholder="Ваше имя" type="text">
+                <input name="phone" required placeholder="Ваш телефон" type="number">
+                <input name="email" required placeholder="Ваш Е-mail" type="email">
+
+                <button class="button button_submit">заказать консультацию</button>
+            </form>
         </div>
     </div>
 </body>
