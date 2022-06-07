@@ -1,0 +1,23 @@
+.feedback-wrapper {
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    &__wrapper-img {
+        margin-right: 60px;
+    }
+    .feedback__name {
+        font-weight: 700;
+        font-size: 18px;
+    }
+    .feedback__disc {
+        font-weight: 500;
+        font-size: 14px;
+        color: #646464;
+    }
+    .feedback__descr {
+        margin-top: 10px;
+        font-weight: 300;
+        font-size: 16px;
+    }
+}
